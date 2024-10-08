@@ -1,0 +1,10 @@
+
+BIP39 Passphrase (empty for none):
+
+Wrote new keypair to /home/tristan/.config/solana/id.json
+==========================================================================
+pubkey: GXjE9DqWUFGojNnGLWRfGzTV1fLDrWoMdC8pG5iGAtU
+==========================================================================
+Save this seed phrase and your BIP39 passphrase to recover your new keypair:
+jewel loop crater detail dial copper kitchen begin impulse merit wrist fix
+==========================================================================

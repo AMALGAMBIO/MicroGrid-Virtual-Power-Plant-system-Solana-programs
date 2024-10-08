@@ -1,7 +1,20 @@
 use anchor_lang::prelude::*;
 use anchor_spl::token::{self, Token, TokenAccount, Transfer};
 
-declare_id!("EnrgyA11ocXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
+declare_id!("EbewJcMVSSNSTPETFDr6oKKJPXo5MhBzK134B2TomGpX");
+
+#[program]
+pub mod amalgam_anchor_project {
+    use super::*;
+
+    pub fn initialize(ctx: Context<Initialize>) -> Result<()> {
+        msg!("Greetings from Amalgam: {:?}", ctx.program_id);
+        Ok(())
+    }
+}
+
+#[derive(Accounts)]
+pub struct Initialize {}
 
 #[program]
 pub mod energy_allocation {
